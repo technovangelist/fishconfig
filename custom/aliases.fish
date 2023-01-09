@@ -35,6 +35,9 @@ abbr gc 'git commit'
 abbr gs 'git status'
 abbr gp 'git push origin HEAD'
 abbr gpl 'git pull origin HEAD'
+alias gitroot 'cd $(git rev-parse --show-toplevel)'
+
+
 
 if type -q hx
     abbr e hx
@@ -80,3 +83,5 @@ fish_add_path -aP "$NPM_PACKAGES/bin"
 if type -q direnv
     eval (direnv hook fish)
 end
+
+alias dus='du -sh ./* | sort -h'
