@@ -21,3 +21,5 @@ test -e {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell
 if command -q zoxide
     zoxide init --hook prompt fish | source
 end
+
+neofetch
