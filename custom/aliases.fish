@@ -35,7 +35,7 @@ abbr gc 'git commit'
 abbr gs 'git status'
 abbr gp 'git push origin HEAD'
 abbr gpl 'git pull origin HEAD'
-alias gitroot 'cd $(git rev-parse --show-toplevel)'
+alias gitroot 'cd (git rev-parse --show-toplevel)'
 
 
 
