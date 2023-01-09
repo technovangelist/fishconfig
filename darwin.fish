@@ -2,6 +2,8 @@ if status is-interactive
     eval (/opt/homebrew/bin/brew shellenv)
 end
 
+source "(brew --prefix asdf)"/libexec/asdf.fish" 
+
 fish_add_path -aP /opt/homebrew/bin/
 
 set -x SHELL /opt/homebrew/bin/fish
@@ -23,10 +25,10 @@ function corner_print
     if set -q _flag_help
         echo "Print to a corner of the screen"
         echo "Options:"
-        echo "  --bl  Bottom left"
-        echo "  --br  Bottom right"
-        echo "  --tl  Top left"
-        echo "  --tr  Top right"
+        echo " --bl Bottom left"
+        echo " --br Bottom right"
+        echo " --tl Top left"
+        echo " --tr Top right"
         return
     end
 

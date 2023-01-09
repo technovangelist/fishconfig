@@ -16,6 +16,7 @@ SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr__2E_2E_:cd\x20\x2e\x2e\x3bpwd
 SETUVAR _fish_abbr__2E_2E_2E_:cd\x20\x2e\x2e/\x2e\x2e\x3bpwd
 SETUVAR _fish_abbr_asht:asdf
+SETUVAR _fish_abbr_avault:ansible\x2dvault\x20edit\x20vault\x2eyml
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cat:bat
 SETUVAR _fish_abbr_e:hx
@@ -24,7 +25,6 @@ SETUVAR _fish_abbr_gc:git\x20commit
 SETUVAR _fish_abbr_gp:git\x20push\x20origin\x20HEAD
 SETUVAR _fish_abbr_gpl:git\x20pull\x20origin\x20HEAD
 SETUVAR _fish_abbr_gs:git\x20status
-SETUVAR _fish_abbr_gt:go\x20test\x20\x2dv\x20\x2e/\x2e\x2e\x2e
 SETUVAR _fish_abbr_k:kubectl
 SETUVAR _fish_abbr_kd:kubectl\x20describe
 SETUVAR _fish_abbr_kda:kubectl\x20describe\x20\x2dA

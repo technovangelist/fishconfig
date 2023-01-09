@@ -63,14 +63,6 @@ set -gx FZF_DEFAULT_OPTS "$FZF_DEFAULT_OPTS
 	--color=info:#7aa2f7,prompt:#7dcfff,pointer:#7dcfff 
 	--color=marker:#9ece6a,spinner:#9ece6a,header:#9ece6a"
 
-# Go
-if type -q go
-    set -x GOPATH "$PROJECT_DIR/go"
-    fish_add_path -aP "$GOPATH/bin"
-
-    abbr gb 'go build'
-    abbr gt 'go test -v ./...'
-end
 
 if type -q pnpm
     abbr npm pnpm
@@ -85,3 +77,4 @@ if type -q direnv
 end
 
 alias dus='du -sh ./* | sort -h'
+abbr avault 'ansible-vault edit vault.yml'
