@@ -22,4 +22,5 @@ if command -q zoxide
     zoxide init --hook prompt fish | source
 end
 
-neofetch
+# status --is-login; and neofetch; or echo no
+env >envoutput

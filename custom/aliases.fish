@@ -21,7 +21,7 @@ else
 end
 
 if type -q bat
-    abbr cat bat
+    alias cat bat
     set -x BAT_THEME base16
     set -x COLORTERM truecolor
 end
