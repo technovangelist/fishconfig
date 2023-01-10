@@ -14,3 +14,5 @@ function bup
     brew upgrade
     brew cleanup
 end
+
+test -e {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell_integration.fish
