@@ -19,3 +19,5 @@ source ~/.config/fish/custom.fish
 if command -q zoxide
     zoxide init --hook prompt fish | source
 end
+
+starship init fish | source
